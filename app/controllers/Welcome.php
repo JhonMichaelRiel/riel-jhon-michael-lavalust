@@ -6,4 +6,7 @@ class Welcome extends Controller {
 		$this->call->view('welcome_page');
 	}
 }
+ function about_us() {
+	echo 'About us page';
+};
 ?>
